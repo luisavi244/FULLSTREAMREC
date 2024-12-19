@@ -1,0 +1,76 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.productos{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+    margin-top: 20px;
+    place-items: center;
+}
+.card{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card_img{
+    width: 100%;
+}
+.card_titulo{
+    text-align: center;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 100%;
+}
+.card_link a{
+    margin-top: 12px;
+    padding: 6px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px #0025a0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.card_link a:hover{
+    background: #003983;
+}
+
+.netflix_logo{
+    border: solid 2px  rgb(255, 33, 33);
+    box-shadow: 0 0 13px  rgb(255, 3, 3);
+}
+.disney_logo{
+    border: solid 2px  rgb(0, 204, 255);
+    box-shadow: 0 0 13px  rgb(0, 204, 255);
+}
+.hbo_logo{
+    border: solid 2px  rgb(234, 0, 255);
+    box-shadow: 0 0 13px  rgb(234, 0, 255);
+}
+.paramount_logo{
+    border: solid 2px  rgb(0, 111, 238);
+    box-shadow: 0 0 13px  rgb(0, 111, 238);
+}
+.vix_logo{
+    border: solid 2px  rgb(255, 148, 8);
+    box-shadow: 0 0 13px  rgb(255, 148, 8);
+}
+.primevideo_logo{
+    border: solid 2px  rgb(0, 111, 238);
+    box-shadow: 0 0 13px  rgb(0, 111, 238);
+}
