@@ -74,3 +74,19 @@ main{
     border: solid 2px  rgb(0, 111, 238);
     box-shadow: 0 0 13px  rgb(0, 111, 238);
 }
+.youtube_logo{
+    border: solid 2px  rgb(238, 0, 12);
+    box-shadow: 0 0 13px  rgb(238, 0, 12);
+}
+.iptv_logo{
+    border: solid 2px  rgb(162, 0, 255);
+    box-shadow: 0 0 13px  rgb(162, 0, 255);
+}
+.plex_logo{
+    border: solid 2px  rgb(255, 148, 8);
+    box-shadow: 0 0 13px  rgb(255, 148, 8);
+}
+.crunchyroll_logo{
+    border: solid 2px  rgb(255, 255, 255);
+    box-shadow: 0 0 13px  rgb(255, 255, 255);
+}
