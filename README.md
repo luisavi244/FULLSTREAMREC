@@ -38,7 +38,7 @@ El sitio consta de las siguientes secciones:
 ## Instalación y Uso
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/fullstreamrec.git
+   git clone https://github.com/luisavi244/FULLSTREAMREC.git
    ```
 2. Abre el archivo `index.html` en tu navegador para ver el sitio web.
 3. Personaliza el contenido según tus necesidades.
