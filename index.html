@@ -100,11 +100,11 @@
       <!-- Contenido de LA página -->
       
       
-      
+   
 
 
     <header class="header">
-        <div class="port"></div>
+        
         <div class="header_container">
             <div class="header_logo">
                 <img src="/img/logo/logo.svg" alt="">
@@ -116,11 +116,15 @@
             </div>
 
             <div class="header_buttom_whatsapp">
-                <a href="https://chat.whatsapp.com/F7riYErJW26E92vOAIL8FP">Grupo de whatsapp <img src="/img/icons/whatsapp.svg" alt=""></a>
+                <div class="btn_group">
+                <a href="https://chat.whatsapp.com/F7riYErJW26E92vOAIL8FP">Grupo de whatsapp <img src="/img/icons/whatsapp.svg" alt=""></a></div>
+                <div class="btn_contacto">
+                <a  href="https://wa.link/98nvtz">Contacto Rapido <img src="/img/icons/chaticon.svg" alt=""></a></div>
+                
             </div>
         </div>
+        <div class="port"></div>
     </header>
-    <hr>
     <br>
     <br>
     <main>
@@ -132,6 +136,9 @@
             <div class="card_container">
                 
                 <div class="card">
+                    <div class="icon_fire">
+                        <img src="/img/icons/fire.svg" alt="">
+                    </div>
                     <div class="card_img">
                     <img src="/img/plataformas/netflix.svg" alt="" class="netflix_logo">
                     </div>
@@ -145,6 +152,9 @@
                 </div>
 
                 <div class="card">
+                    <div class="icon_fire">
+                        <img src="/img/icons/fire.svg" alt="">
+                    </div>
                     <div class="card_img">
                     <img src="/img/plataformas/disney.svg" alt="" class="disney_logo">
                     </div>
@@ -197,6 +207,9 @@
                 </div>
 
                 <div class="card">
+                    <div class="icon_fire">
+                        <img src="/img/icons/fire.svg" alt="">
+                    </div>
                     <div class="card_img">
                     <img src="/img/plataformas/primevideo.svg" alt="" class="primevideo_logo">
                     </div>
@@ -286,7 +299,7 @@
           console.log(`La página tardó en cargar: ${loadTime / 1000} segundos`);
       
           // Mostrar el loader al menos por 500ms o hasta el tiempo de carga real
-          const minTime = 1300; // Mínimo tiempo de visibilidad del loader (ms)
+          const minTime = 100; // Mínimo tiempo de visibilidad del loader (ms)
           const visibleTime = Math.max(loadTime, minTime);
       
           setTimeout(() => {

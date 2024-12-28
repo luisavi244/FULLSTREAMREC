@@ -6,15 +6,25 @@
 }
 body{
     background-color: #000314;
+    position: relative;
 }
+
+
+
+
 hr{
     opacity: 0.2;
     width: 90%;
     margin: 0 auto;
 }
 #fechaActual{
-    color: #fbff1b;
+    color: #00cad1;
+    text-shadow: 0 0 10px #ffffff;
+    font-family: "Poppins", serif;
+    border-right: 0.15em solid #18bdec;
+    animation: typing 10s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
 }
+
 footer{
     width: 100%;
     padding: 30px;
@@ -27,3 +37,16 @@ footer{
     font-size: 15px;
     color: rgb(126, 126, 126);
 }
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

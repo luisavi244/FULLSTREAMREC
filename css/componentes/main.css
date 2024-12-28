@@ -3,6 +3,7 @@ main{
     margin: 0 auto;
     padding: 1rem;
 }
+
 .productos{
     color: white;
     font-family: "Poppins", serif;
@@ -13,7 +14,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 35px;
-    margin-top: 20px;
+    margin-top: 40px;
     place-items: center;
 }
 .card{
@@ -22,6 +23,7 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .card_img{
     width: 100%;
@@ -89,4 +91,10 @@ main{
 .crunchyroll_logo{
     border: solid 2px  rgb(255, 255, 255);
     box-shadow: 0 0 13px  rgb(255, 255, 255);
+}
+
+.icon_fire{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
