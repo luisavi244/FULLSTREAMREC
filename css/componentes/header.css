@@ -19,6 +19,12 @@
 
     
 }
+.header_text_desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .header_parrafo{
     text-align: center;
     color: white;
@@ -150,3 +156,28 @@
     }
 }
 
+@media (min-width: 670px) {
+    .header_container{
+        margin-top: 100px;
+    }
+   .header_container{
+    flex-direction: row;
+   }
+   .header_logo{
+    width: 350px;
+    
+   }
+   .header_parrafo h1{
+    font-size: 3rem;
+   }
+   .header_text_desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .port{
+    background-image: url(/img/waves_destokp.svg);
+   }
+   
+}
