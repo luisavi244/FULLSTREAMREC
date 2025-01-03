@@ -31,6 +31,9 @@ main{
 .card_titulo{
     text-align: center;
 }
+.agotado{
+  background: red;
+}
 .card_img img{
     width: 100%;
     border-radius: 100%;
@@ -55,6 +58,7 @@ main{
 .netflix_logo{
     border: solid 2px  rgb(255, 33, 33);
     box-shadow: 0 0 13px  rgb(255, 3, 3);
+    filter: grayscale(1);
 }
 .disney_logo{
     border: solid 2px  rgb(0, 204, 255);
